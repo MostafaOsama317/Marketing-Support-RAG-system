@@ -12,6 +12,7 @@ class Credentials(BaseModel):
 class ConversationItem(BaseModel):
     type: str
     content: str
+    
 
 
 class ChunksPayload(BaseModel):
