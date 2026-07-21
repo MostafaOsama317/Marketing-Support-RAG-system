@@ -1,7 +1,11 @@
 [project]
 name = "marketing-support-rag-sys"
 version = "0.1.0"
-description = "Add your description here"
+description = "marketing support system for companies"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "SQLAlchemy==2.0.51",
+    "langchain-text-splitters==1.1.2",
+    "langchain-huggingface==1.2.2",
+]
