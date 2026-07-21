@@ -12,7 +12,7 @@
 #   - query.py    → ParsedIntent, RetrievedSource
 # ============================================================
 
-from config.Setting import VECTOR_SIZE
+from src.config.Setting import VECTOR_SIZE
 
 from typing import List, Optional
 from uuid import UUID
@@ -29,8 +29,8 @@ from qdrant_client.models import (
     VectorParams,
 )
 
-from core.models.document import ContentType, EmbeddedChunk
-from core.models.query import ParsedIntent, RetrievedSource
+from src.core.models.document import ContentType, EmbeddedChunk
+from src.core.models.query import ParsedIntent, RetrievedSource
 
 
 # ============================================================

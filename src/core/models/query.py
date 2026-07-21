@@ -5,9 +5,9 @@ Query model for RAG request/response schemas.
 from datetime import datetime
 from typing import Optional, List
 from pydantic import BaseModel, Field
-from uuid import UUID
+# from uuid import UUID
 
-from core.models.document import ContentType  # من الـ file اللي عملناه
+from src.core.models.document import ContentType  # من الـ file اللي عملناه
 
 
 class UserQuery(BaseModel):

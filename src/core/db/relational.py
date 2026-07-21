@@ -28,7 +28,7 @@ from sqlalchemy.dialects.postgresql import UUID as PGUUID
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 
 # ── بنستورد من document.py اللي عملناه ─────────────────────
-from core.models.document import ContentType, DocumentRecord, DocumentStatus
+from src.core.models.document import ContentType, DocumentRecord, DocumentStatus
 
 
 # ============================================================
